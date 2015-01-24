@@ -24,6 +24,9 @@ ln -s ../modules-available/snmp-informant-advanced/datacollection/*.xml .
 [source, xml]
 ----
 <include-collection dataCollectionGroup="SNMP-Informant-Advanced"/>
+<include-collection dataCollectionGroup="SNMP-Informant-SQL"/>
+<include-collection dataCollectionGroup="SNMP-Informant-Exchange"/>
+<include-collection dataCollectionGroup="SNMP-Informant-Advanced-Termsvc"/>
 ----
 
 ### Graph report definitions
