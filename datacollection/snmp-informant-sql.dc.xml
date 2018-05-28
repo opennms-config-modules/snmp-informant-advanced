@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<datacollection-group name="SNMP-Informant-SQL">
+<datacollection-group xmlns="https://xmlns.opennms.org/xsd/config/datacollection" name="SNMP-Informant-SQL">
     <group name="snmpinformant-sqlserver" ifType="ignore">
         <mibObj oid=".1.3.6.1.4.1.9600.1.3.2.1" instance="0" alias="ascAuthPerSec" type="Gauge32"/>
         <mibObj oid=".1.3.6.1.4.1.9600.1.3.2.2" instance="0" alias="ascCompletionPerSec" type="Gauge32"/>

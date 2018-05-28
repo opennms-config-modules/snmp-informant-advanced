@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<datacollection-group name="SNMP-Informant-Exchange">
+<datacollection-group xmlns="https://xmlns.opennms.org/xsd/config/datacollection" name="SNMP-Informant-Exchange">
     <group name="snmpinformant-exchange-is" ifType="ignore">
         <mibObj oid=".1.3.6.1.4.1.9600.1.5.14.1" instance="0" alias="isACLUpgrdCompUpgrd" type="Gauge32"/>
         <mibObj oid=".1.3.6.1.4.1.9600.1.5.14.2" instance="0" alias="isACLUpgrdFailures" type="Gauge32"/>

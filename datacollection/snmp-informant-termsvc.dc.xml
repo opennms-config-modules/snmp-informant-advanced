@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<datacollection-group name="SNMP-Informant-Advanced-Termsvc">
+<datacollection-group xmlns="https://xmlns.opennms.org/xsd/config/datacollection" name="SNMP-Informant-Advanced-Termsvc">
     <group name="snmpinformant-adv-termsvc-scalars" ifType="ignore">
         <mibObj oid=".1.3.6.1.4.1.9600.1.2.81.1" instance="0" alias="sinfTsActiveSess" type="gauge"/>
         <mibObj oid=".1.3.6.1.4.1.9600.1.2.81.2" instance="0" alias="sinfTsInactiveSess" type="gauge"/>
